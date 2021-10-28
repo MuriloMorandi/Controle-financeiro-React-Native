@@ -6,8 +6,6 @@ import { Feather } from  '@expo/vector-icons'
 
 export const Container = styled.View`
     flex: 1;
-    align-items: center;
-
     background-color: ${ ({ theme }) => theme.colors.background };  
 `;
 
@@ -17,12 +15,15 @@ export const Header = styled.View`
     
     background-color: ${ ({ theme }) => theme.colors.primary}; 
     flex-direction: row;
+    align-items: flex-start;
+
 `;
 
 export const UserWrapper = styled.View`
     width: 100%;
     
     padding: 0px 24px;
+    margin-top: 40px;
 
     flex-direction: row;
     justify-content: space-between ;
@@ -75,3 +76,15 @@ export const Icon = styled(Feather)`
 
 `;
 //#endregion
+
+export const Cards = styled.ScrollView.attrs({
+        horizontal: true,
+        showsHorizontalScrollIndicator:false,
+        contentContainerStyle:{ paddingHorizontal: 24 },
+    })`
+
+    width: 100%;
+    position: absolute;
+
+    margin-top: ${RFPercentage(20)}px;
+`;
