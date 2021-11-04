@@ -64,14 +64,14 @@ export const Content = styled.View`
 
 `;
 
-export const Amount = styled.Text`
+export const Amount = styled.Text<TypeProps>`
     font-family:  ${ ({ theme }) => theme.fonts.medium};
     font-size: ${RFValue(32)}px;
 
     color: ${ ({ theme, type} ) => type === 'Total' ? theme.colors.shape : theme.colors.text };
 `;
 
-export const LastTransaction = styled.Text`
+export const LastTransaction = styled.Text<TypeProps>`
     font-family:  ${ ({ theme }) => theme.fonts.regular};
     font-size: ${RFValue(12)}px;  
 
