@@ -11,8 +11,8 @@ import {
   ListTransaction
 } from './styles';
 
-import { Card }  from '../../components/Card';
-import { TransactionCard } from '../../components/TransactionCard';
+import { Card }  from '../../Components/Card';
+import { TransactionCard } from '../../Components/TransactionCard';
 
 export function Dashboard() {
   const DataTransactionCard =[{

@@ -5,11 +5,10 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import { RegisterTransactionSchema } from '../../Schemas/RegisterTransaction.schema'
     
-import { Button } from "../../components/Form/Button";
-import { CategorySelectButton } from "../../components/Form/CategorySelectButton";
-import { Input } from "../../components/Form/Input";
-import { InputForm } from "../../components/Form/InputForm";
-import { TransactionTypeButton } from "../../components/Form/TransactionTypeButton";
+import { Button } from "../../Components/Form/Button";
+import { CategorySelectButton } from "../../Components/Form/CategorySelectButton";
+import { InputForm } from "../../Components/Form/InputForm";
+import { TransactionTypeButton } from "../../Components/Form/TransactionTypeButton";
 
 import { CategorySelect } from "../CategorySelect";
 

@@ -1,9 +1,9 @@
 import React from "react"; 
 import { FlatList } from "react-native-gesture-handler";
 
-import { categories } from "../../utils/categories";
+import { categories } from "../../Utils/categories";
 
-import { Button } from "../../components/Form/Button";
+import { Button } from "../../Components/Form/Button";
 
 import {
     Container,
