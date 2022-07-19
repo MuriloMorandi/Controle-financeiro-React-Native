@@ -63,7 +63,7 @@ export const UserGreating = styled.Text`
 export const UserName = styled.Text`
     color: ${ ({theme} )=> theme.colors.shape };
 
-    font-size: ${RFValue(18)};
+    font-size: ${RFValue(18)}px;
     font-family: ${ ({theme} )=> theme.fonts.bold };
 `;
 //#endregion
